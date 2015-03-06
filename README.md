@@ -1,4 +1,3 @@
 # SwiftPeople
-Swift People example project
 
-See [Vluxe article]() for more info.
+Swift People example project for the [Vluxe article](vluxe.io/build-swift-people.html).
