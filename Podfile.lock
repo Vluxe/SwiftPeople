@@ -1,36 +1,17 @@
 PODS:
   - JSONJoy-Swift (0.9.1)
-  - Skeets (0.9.2):
+  - Skeets (0.9.3):
     - SwiftHTTP (~> 0.9.2)
   - SwiftHTTP (0.9.2)
 
 DEPENDENCIES:
-  - JSONJoy-Swift (from `https://github.com/daltoniam/JSONJoy-Swift.git`)
-  - Skeets (from `https://github.com/daltoniam/Skeets.git`)
-  - SwiftHTTP (from `https://github.com/daltoniam/SwiftHTTP.git`)
-
-EXTERNAL SOURCES:
-  JSONJoy-Swift:
-    :git: https://github.com/daltoniam/JSONJoy-Swift.git
-  Skeets:
-    :git: https://github.com/daltoniam/Skeets.git
-  SwiftHTTP:
-    :git: https://github.com/daltoniam/SwiftHTTP.git
-
-CHECKOUT OPTIONS:
-  JSONJoy-Swift:
-    :commit: 0b027f99e8edff78614d172d8ea601bc4987ba78
-    :git: https://github.com/daltoniam/JSONJoy-Swift.git
-  Skeets:
-    :commit: 85a130bc548dc8d16a9b0e05a009dfbc090f1aaf
-    :git: https://github.com/daltoniam/Skeets.git
-  SwiftHTTP:
-    :commit: 7a4f932c4e5c5ba10c5f6e9ee22d4a9e16d177f9
-    :git: https://github.com/daltoniam/SwiftHTTP.git
+  - JSONJoy-Swift
+  - Skeets
+  - SwiftHTTP
 
 SPEC CHECKSUMS:
-  JSONJoy-Swift: 97441093ca05590e0fd2c860734e9528efc96fdc
-  Skeets: 305cffdee5056127ec151cdc5533de595606ddcd
-  SwiftHTTP: 025860414b3f0f583348734bb287f59aa84a3fc4
+  JSONJoy-Swift: 05020a3177e6dec405e6b1b5ed5408586edb1b79
+  Skeets: 825207412d0ae165df8e364ab5cc52f24d1dbaea
+  SwiftHTTP: 86743248a428236d5ad5a7f6de91eb3afa0045d6
 
-COCOAPODS: 0.36.0.beta.1
+COCOAPODS: 0.36.0

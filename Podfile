@@ -1,4 +1,7 @@
+source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
-pod 'SwiftHTTP', :git => "https://github.com/daltoniam/SwiftHTTP.git"
-pod 'Skeets', :git => "https://github.com/daltoniam/Skeets.git"
-pod 'JSONJoy-Swift', :git => "https://github.com/daltoniam/JSONJoy-Swift.git"
+use_frameworks!
+
+pod 'SwiftHTTP'
+pod 'Skeets'
+pod 'JSONJoy-Swift'
