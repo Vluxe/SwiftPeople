@@ -26,7 +26,7 @@ struct User: JSONJoy {
     static func getUsers(finished:((Array<User>) -> Void)) {
         let task = HTTPTask()
         task.responseSerializer = JSONResponseSerializer()
-        task.GET("http://api.randomuser.me", parameters: ["results": "30"], success: { (response: HTTPResponse) in
+        task.GET("http://api.randomuser.me", parameters: ["results": "30"], completionHandler: { (response: HTTPResponse) in
             if let data = response.responseObject as? NSDictionary {
                 var collect = Array<User>()
                 //get a decoder of the data
@@ -46,8 +46,6 @@ struct User: JSONJoy {
                     finished(collect)
                 })
             }
-            }, failure: { (error: NSError, response: HTTPResponse?) -> Void in
-            println("failed to get random users: \(error)")
         })
     }
     

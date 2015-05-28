@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.tableView.rowHeight = 80
         //fetch the users!
         User.getUsers{ (users: Array<User>) in
             self.users = users
@@ -57,7 +58,6 @@ class ViewController: UIViewController {
         }
         return cell
     }
-    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

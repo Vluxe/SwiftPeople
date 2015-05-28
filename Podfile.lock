@@ -1,8 +1,8 @@
 PODS:
-  - JSONJoy-Swift (0.9.1)
-  - Skeets (0.9.3):
-    - SwiftHTTP (~> 0.9.2)
-  - SwiftHTTP (0.9.2)
+  - JSONJoy-Swift (0.9.2)
+  - Skeets (0.9.5):
+    - SwiftHTTP (~> 0.9.5)
+  - SwiftHTTP (0.9.5)
 
 DEPENDENCIES:
   - JSONJoy-Swift
@@ -10,8 +10,8 @@ DEPENDENCIES:
   - SwiftHTTP
 
 SPEC CHECKSUMS:
-  JSONJoy-Swift: 05020a3177e6dec405e6b1b5ed5408586edb1b79
-  Skeets: 825207412d0ae165df8e364ab5cc52f24d1dbaea
-  SwiftHTTP: 86743248a428236d5ad5a7f6de91eb3afa0045d6
+  JSONJoy-Swift: d51bde1053047c623db602e778f068414dd788e4
+  Skeets: 99fcf722fea6b4d4a379b22845e4258e7337fbb2
+  SwiftHTTP: cd7b248bc07db02926ff54cf19b580b78f7abfa1
 
-COCOAPODS: 0.36.0
+COCOAPODS: 0.37.1
